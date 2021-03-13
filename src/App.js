@@ -22,6 +22,18 @@ function App(n) {
     </p>
       `${n}? That's just ${20+ n % 2}, in base ${Math.floor(n/2)}!`
 
+      <div>
+        <p>Two of the numbers are positive numbers</p>
+      {/*  function exactlyTwoArePositive(a, b, c) {*/}
+      {/*  if((a > 0) && (b > 0) && (c<=0) || (a<=0) && (b > 0) && (c > 0) || (a > 0) && (b <= 0) && (c > 0)) {*/}
+      {/*    return true;*/}
+      {/*} else {*/}
+      {/*    return false*/}
+      {/*}*/}
+      {/*}*/}
+
+      </div>
+
     </div>
   );
 }
