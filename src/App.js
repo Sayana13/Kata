@@ -65,6 +65,14 @@ function App(n) {
         {/*}*/}
         </p>
 
+        <h3>Simple Comparison? JavaScript</h3>
+        <p>Write a function that will compare two values, one will be a number and one will be a string. Return true if they are the same character (regardless of their different data types) and return false if they are not.
+
+          To make this challange harder and to promp the challenger to read up about coercion I have disabled some of the built in methods including .toString(), .join(), .split(), parseInt and .Number().</p>
+      {/*  function add(a, b){*/}
+      {/*  if(a == b ) return true;*/}
+      {/*  return false;*/}
+      {/*}*/}
       </div>
 
     </div>
