@@ -84,6 +84,41 @@ function App(n) {
             return false;
           }
         </p>
+
+        <p>
+          ###Lucky number
+
+          Write a function to find if a number is lucky or not. If the sum of all digits is 0 or multiple of 9 then the number is lucky.
+
+          1892376 => 1+8+9+2+3+7+6 = 36. 36 is divisible by 9, hence number is lucky.
+
+          Function will return true for lucky numbers and false for others.
+          Solution:
+          function isLucky(n) {
+          return n % 9 == 0 ? true : false;
+        }
+        </p>
+
+        <p>
+          Grade book
+          Complete the function so that it finds the average of the three scores passed to it and returns the letter value associated with that grade.
+          Numerical Score	Letter Grade
+          90 <= score <= 100	'A'
+          80 <= score < 90	'B';
+          70 <= score < 80	'C'
+          60 <= score < 70	'D'
+          0 <= score < 60	'F'
+          Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.
+        Solution:
+        function getGrade (s1, s2, s3) {
+  if( 90 <= ((s1 + s2 + s3) / 3) && ((s1 + s2 + s3) / 3) <= 100) return 'A';
+  if( 80 <= ((s1 + s2 + s3) / 3) && ((s1 + s2 + s3) / 3) <= 90) return 'B';
+  if( 70 <= ((s1 + s2 + s3) / 3) && ((s1 + s2 + s3) / 3) <= 80) return 'C';
+  if( 60 <= ((s1 + s2 + s3) / 3) && ((s1 + s2 + s3) / 3) <= 70) return 'D';
+  if( 0 <= ((s1 + s2 + s3) / 3) && ((s1 + s2 + s3) / 3) <= 60) return 'F';
+
+}
+        </p>
       </div>
 
     </div>
